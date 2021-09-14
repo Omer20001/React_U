@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Cards from './components/Cards';
+import Border from './components/Border';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
 <br/>
     <Cards />
+    <br />
+    <Border />
   </React.StrictMode>,
   document.getElementById('root')
 );
