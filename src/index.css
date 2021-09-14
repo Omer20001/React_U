@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button-red{
+  background-color: red;
+  font-size: 40px;
+  
+}
+
+.button-yellow{
+  background-color: yellow;
+  font-size: 40px;
+  
+}
