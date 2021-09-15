@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import Cards from './components/Cards';
 import Border from './components/Border';
+import Geolocation from './components/Geolocation'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,9 @@ ReactDOM.render(
     <Cards />
     <br />
     <Border />
+
+    <Geolocation/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
